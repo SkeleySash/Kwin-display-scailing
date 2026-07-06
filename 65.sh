@@ -6,6 +6,6 @@ if [ "$current_scale" = "1" ]; then
     kscreen-doctor output.1.scale.1
     notify-send "Display Scaling" "Scaled to 100%"
 else
-    kscreen-doctor output.1.scale.0.75
-    notify-send "Display Scaling" "Scaled to 75%"
+    kscreen-doctor output.1.scale.0.65
+    notify-send "Display Scaling" "Scaled to 65%"
 fi
